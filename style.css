@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #5dd84d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    width: 33%; /* Ajuste o tamanho conforme necessário */
+}
+
+.cabecalho-texto {
+    text-align: right;
+    max-width: 65%; /* Ajuste a largura conforme necessário */
+    padding-top: 20px; /* Adicione um espaçamento superior */
+}
+
+.cabecalho-texto h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.cabecalho-texto h2 {
+    color:#3d9b06;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.cabecalho-texto p {
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+.imagens_dos_espaços {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.estudante-icone {
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.imagens_espaços {
+    background-color: rgba(218, 233, 87, 0.836);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 16px 0;
+}
+
+
+
+.tituloseção {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.rodape {
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem {
+    height: 60px;
+    padding: 12px 0;
+}
+
+.imagens_plantio {
+    width: 200px;
+}
